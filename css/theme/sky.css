@@ -19,7 +19,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 36px;
+	font-size: 2.5em;
 	font-weight: 200;
 	letter-spacing: -0.02em;
 	color: #333;
@@ -47,6 +47,23 @@ body {
 	color: white; 
 }
 
+.craft-logo {
+	position: absolute; 
+	bottom: 0; 
+	left: 0; 
+	margin: 12px;
+}
+
+.top-right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 12px;
+}
+
+.reveal ul {
+	line-height: 1.5em;
+}
 
 /*********************************************
  * HEADERS
@@ -61,7 +78,7 @@ body {
 	margin: 0 0 20px 0;
 	color: #333;
 	font-family: 'Quicksand', sans-serif;
-	line-height: 0.9em;
+	line-height: 1.5em;
 	letter-spacing: -0.08em;
 	
 	text-transform: uppercase;
@@ -98,7 +115,7 @@ body {
  * MISC
  *********************************************/
 
-.reveal section img {
+.reveal .shadow section img {
 	margin: 30px 0 0 0;
 	background: rgba(255,255,255,0.12);
 	border: 1px solid #ddd;
