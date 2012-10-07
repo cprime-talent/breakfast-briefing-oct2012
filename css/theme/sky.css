@@ -49,7 +49,7 @@ body {
 
 .craft-logo {
 	position: absolute; 
-	bottom: 0; 
+	top: 0; 
 	left: 0; 
 	margin: 12px;
 }
@@ -63,6 +63,17 @@ body {
 
 .reveal ul {
 	line-height: 1.5em;
+	list-style: none;
+}
+
+.reveal li { 
+/*  padding-left: 1em; 
+*/}
+
+.reveal li:before {
+  content: "∞";
+  padding-right: 0.5em;
+  color: purple; /* or whatever color you prefer */
 }
 
 /*********************************************
@@ -89,7 +100,7 @@ body {
  * LINKS
  *********************************************/
 
-.reveal a:not(.image) {
+/*.reveal a:not(.image) {
 	color: #3b759e;
 	text-decoration: none;
 
@@ -109,13 +120,13 @@ body {
 	color: #fff;
 	background: #3b759e;
 }
-
+*/
 
 /*********************************************
  * MISC
  *********************************************/
 
-.reveal .shadow section img {
+.shadow {
 	margin: 30px 0 0 0;
 	background: rgba(255,255,255,0.12);
 	border: 1px solid #ddd;
@@ -131,14 +142,14 @@ body {
 	        transition: all .2s linear;
 }
 
-	.reveal a:hover img {
-		background: rgba(255,255,255,0.2);
-		border-color: #3b759e;
-		
-		-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-		   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-		        box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
-	}
+.reveal a:hover img {
+	background: rgba(255,255,255,0.2);
+	border-color: #3b759e;
+	
+	-webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+	   -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+	        box-shadow: 0 0 20px rgba(0, 0, 0, 0.55);
+}
 
 .reveal blockquote {
 	background: rgba(255, 255, 255, 0.4);
@@ -155,6 +166,7 @@ body {
 
 .reveal .controls a {
 	color: #fff;
+	text-decoration: none;
 }
 	.reveal .controls a.enabled {
 		color: #3b759e;
