@@ -4,10 +4,10 @@
 	<head>
 		<meta charset="utf-8">
 		
-		<title>reveal.js - The HTML Presentation Framework</title>
+		<title>Release the Cheetah: Improving Software Quality</title>
 
-		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
-		<meta name="author" content="Hakim El Hattab">
+		<meta name="description" content="">
+		<meta name="author" content="Nigel Runnels-Moss for radtac:craft">
 
 		<meta name="apple-mobile-web-app-capable" content="yes" />
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
@@ -15,11 +15,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
 		
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+		<link rel="stylesheet" href="css/theme/sky.css" id="theme">
 
 		<!-- For syntax highlighting -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
-
+		<!-- <link rel="stylesheet" href="lib/css/zenburn.css">
+ -->
 		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
 		<script>
 			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
@@ -31,284 +31,406 @@
 	</head>
 	
 	<body>
-		
 		<div class="reveal">
-
+			<img class="top-right" width="75px" src="https://secure.gravatar.com/avatar/e7b5b069781ecc84610ef1d1fdea41af" />
 			<!-- Used to fade in a background when a specific slide state is reached -->
 			<div class="state-background"></div>
 			
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1>Reveal.js</h1>
-					<h3>HTML Presentations Made Easy</h3>
+					<h2>Release the Cheetah</h2>
+ 					<h4>Improving Software Quality</h4>
+					<img height="250" src="img/cheetah.jpg"/>
 				</section>
 				
 				<section>
-					<h2>Heads Up</h2>
-					<p>
-						reveal.js is a framework for easily creating beautiful presentations using HTML. You'll need a browser with 
-						support for CSS 3D transforms to see it in its full glory.
-					</p>
-					<p>
-						<i><small>- <a href="http://hakim.se">Hakim El Hattab</a> / <a href="http://twitter.com/hakimel">@hakimel</a></small></i>
-					</p>
-
-					<aside class="notes">
-						Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you run the speaker notes server.
-					</aside>
-				</section>
-				
-				<!-- Example of nested vertical slides -->
-				<section>
-					<section>
-						<h2>Vertical Slides</h2>
-						<p>
-							Slides can be nested inside of other slides,
-							try pressing <a href="#/2/1">down</a>.
-						</p>
-						<a href="#/2/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 1</h2>
-						<p>Press down or up to navigate.</p>
-					</section>
-					<section>
-						<h2>Basement Level 2</h2>
-						<p>Cornify</p>
-						<a class="test" href="http://cornify.com">
-							<img width="280" height="326" src="https://s3.amazonaws.com/hakim-static/reveal-js/cornify.gif" alt="Unicorn">
-						</a>
-					</section>
-					<section>
-						<h2>Basement Level 3</h2>
-						<p>That's it, time to go back up.</p>
-						<a href="#/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
-					</section>
-				</section>
-
-				<section>
-					<h2>Holistic Overview</h2>
-					<p>
-						Press <strong>ESC</strong> to enter the slide overview!
-					</p>
-				</section>
-
-				<section>
-					<h2>rvl.io</h2>
-					<p>
-						If you don't like writing slides in HTML you can use the online editor <a href="http://www.rvl.io" target="_blank">rvl.io</a>.
-					</p>
-				</section>
-
-				<section>
-					<h2>Works in Mobile Safari</h2>
-					<p>
-						Try it out! You can swipe through the slides and pinch your way to the overview.
-					</p>
-				</section>
-
-				<section>
-					<h2>Marvelous Unordered List</h2>
+					<h2>Nigel Runnels-Moss</h2>
 					<ul>
-						<li>No order here</li>
-						<li>Or here</li>
-						<li>Or here</li>
-						<li>Or here</li>
+						<li class="fragment">Head of radtac:craft</li>
+						<li class="fragment">Software Craftsman</li>
+						<li class="fragment">Agile Coach</li>
+						<li class="fragment">&#35;CodeDojo</li>
+						<li class="fragment">@sleepy<strong>fox</strong></li>
 					</ul>
 				</section>
 				
-				<section>
-					<h2>Fantastic Ordered List</h2>
-					<ol>
-						<li>One is smaller than...</li>
-						<li>Two is smaller than...</li>
-						<li>Three!</li>
-					</ol>
-				</section>
-
-				<section data-markdown>
-					## Markdown support
-					
-					For those of you who like that sort of thing. Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-
-					<pre><code contenteditable style="margin-top: 20px;">&lt;section data-markdown&gt;
-  ## Markdown support
-
-  For those of you who like that sort of thing. 
-  Instructions and a bit more info available [here](https://github.com/hakimel/reveal.js#markdown).
-&lt;/section&gt;
-					</code></pre>
-				</section>
-
-				<section>
-					<h2>Transition Styles</h2>
-					<p>
-						You can select from different transitions, like: <br>
-						<a href="http://lab.hakim.se/reveal-js/?transition=cube">Cube</a> -
-						<a href="http://lab.hakim.se/reveal-js/?transition=page">Page</a> -
-						<a href="http://lab.hakim.se/reveal-js/?transition=concave">Concave</a> -
-						<a href="http://lab.hakim.se/reveal-js/?transition=linear">Linear</a>
-					</p>
-				</section>
-
-				<section>
-					<h2>Themes</h2>
-					<p>
-						Reveal.js comes with a few themes built in: <br>
-						<a href="http://lab.hakim.se/reveal-js/?theme=sky">Sky</a> -
-						<a href="http://lab.hakim.se/reveal-js/?theme=beige">Beige</a> -
-						<a href="http://lab.hakim.se/reveal-js/?theme=simple">Simple</a> -
-						<a href="http://lab.hakim.se/reveal-js/">Default</a>
-					</p>
-					<p>
-						<small>
-							* Theme demos are loaded after the presentation which leads to flicker. In production you should load your theme in the <code>&lt;head&gt;</code> using a <code>&lt;link&gt;</code>.
-						</small>
-					</p>
-				</section>
-
-				<section>
-					<section data-state="alert">
-						<h2>Global State</h2>
-						<p>
-							Set <code>data-state="something"</code> on a slide and <code>"something"</code>
-							will be added as a class to the document element when the slide is open. This lets you
-							apply broader style changes, like switching the background.
-						</p>
-						<a href="#/7/1" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+				<section> <!-- all about radtac -->
+					<section>
+						<h1>radtac</h1>
+						<h3>Agile world leaders</h3>
+						<br/>
+						<img src="img/all-logos.png" alt="Learn, Change, Craft" />
 					</section>
-					<section data-state="blackout">
-						<h2>"blackout"</h2>
-						<a href="#/7/2" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow">
-						</a>
+
+					<section>
+						<p><img src="img/learn-logo.png" alt="radtac:learn logo"/></p>
+						<ul>
+							<li class="fragment">World's largest portfolio of Agile and management training</li>
+							<li class="fragment">Public training and customised, bespoke training</li>
+							<li class="fragment">Both on-site and off-site training</li>
+							<li class="fragment">Certified and uncertified training</li>
+						</ul>
 					</section>
-					<section data-state="soothe">
-						<h2>"soothe"</h2>
-						<a href="#/7/0" class="image">
-							<img width="178" height="238" src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="-webkit-transform: rotate(180deg);">
-						</a>
+
+					<section>
+						<p><img src="img/change-logo.png" alt="radtac:change logo" /></p>
+						<ul>
+							<li class="fragment">Business advantage through IT transformation</li>
+							<li class="fragment">Customised transformation unique to your company</li>
+							<li class="fragment">Transformation with shared risk and reward</li>
+						</ul>
+					</section>
+
+					<section>
+						<p><img src="img/craft-logo.png" alt="radtac:craft logo" /></p>
+						<ul>
+							<li class="fragment">Agile by being, not doing</li>
+							<li class="fragment">Excellence comes as standard</li>
+							<li class="fragment">PAYG and shared risk/reward contracts</li>
+						</ul>
 					</section>
 				</section>
 
-				<section data-state="customevent">
-					<h2>Custom Events</h2>
-					<p>
-						Additionally custom events can be triggered on a per slide basis by binding to the <code>data-state</code> name.
-					</p>
-					<pre><code contenteditable style="font-size: 18px; margin-top: 20px;">Reveal.addEventListener( 'customevent', function() {
-	console.log( '"customevent" has fired' );
-} );
-					</code></pre>
+<!-- 				<section>
+					<h3>IT professionalism today</h3>
+					<img class="fragment" src="img/bodgit.jpg" alt="Bodgit and Scarper, Builders" />
+					Fully one in six of the projects we studied was a black swan, with a cost overrun of 200% on average, and a schedule overrun of almost 70%.
+				</section>
+ -->
+				<section>
+					<h3>We believe:</h3>
+						<ul>
+							<li class="fragment">The highest priority is early and continuous delivery of valuable software</li>
+							<li class="fragment">Great results start with a great team</li>
+							<li class="fragment">The path to greatness is by diligent and continuous improvement</li>
+							<li class="fragment">The best customer relationships are co-located</li>
+							<li class="fragment">Agile is not the 'best' form of management</li>
+							<li class="fragment">...but it is a great start</li>
+						</ul> <!-- No great surprises here, yet -->
 				</section>
 
 				<section>
-					<h2>Clever Quotes</h2>
-					<p>
-						These guys come in two forms, inline: <q cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						The nice thing about standards is that there are so many to choose from</q> and block:
-					</p>
-					<blockquote cite="http://searchservervirtualization.techtarget.com/definition/Our-Favorite-Technology-Quotations">
-						For years there has been a theory that millions of monkeys typing at random on millions of typewriters would 
-						reproduce the entire works of Shakespeare. The Internet has proven this theory to be untrue.
-					</blockquote>
-				</section>
-				
-				<section>
-					<h2>Pretty Code</h2>
-					<pre><code contenteditable>
-function linkify( selector ) {
-  if( supports3DTransforms ) {
-    
-    var nodes = document.querySelectorAll( selector );
-
-    for( var i = 0, len = nodes.length; i &lt; len; i++ ) {
-      var node = nodes[i];
-
-      if( !node.className ) ) {
-        node.className += ' roll';
-      }
-    };
-  }
-}
-					</code></pre>
-					<p>Courtesy of <a href="http://softwaremaniacs.org/soft/highlight/en/description/">highlight.js</a>.</p>
-				</section>
-				
-				<section>
-					<h2>Intergalactic Interconnections</h2>
-					<p>
-						You can link between slides internally,
-						<a href="#/2/3">like this</a>.
-					</p>
+					<h3>We believe:</h3>
+						<ul> <!-- We will justify each of these statements below -->
+							<li class="fragment">Software is eating the world</li>
+							<li class="fragment">Software is in crisis</li>
+							<li class="fragment">The cost of poor software is enormous</li>
+							<li class="fragment">We <em>can</em> do better</li>
+						</ul>
 				</section>
 
-				<section>
-					<h2>Fragmented Views</h2>
-					<p>Hit the next arrow...</p>
-					<p class="fragment">... to step through ...</p>
-					<ol>
-						<li class="fragment"><code>any type</code></li>
-						<li class="fragment"><em>of view</em></li>
-						<li class="fragment"><strong>fragments</strong></li>
-					</ol>
-				</section>
+				<section> <!-- Software is eating the world-->
+					<section>
+						<h4>Software is eating the world</h4>
+						<img class="shadow" src="img/pacman.jpg" alt="fruit">
+					</section>
+
+					<section>
+						<h3>Fly by wire businesses</h3>
+						<img src="img/a340-cockpit.jpg" alt="Airbus A340 cockpit">
+						<p>Airbus A340 cockpit</p>
+					</section>
+
+					<section>
+						<h3>World's largest bookseller</h3>
+						<img class="fragment shadow" src="img/amazon-logo.jpg" alt="Amazon logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
+
+					<section>
+						<h3>World's largest video service</h3>
+						<img class="fragment shadow"width="80%" src="img/netflix-logo.jpg" alt="Netflix logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
 				
-				<section>
-					<h2>Spectacular image!</h2>
-					<a class="image" href="http://hakim.se/experiments/html5/breakdom/" target="_blank">
-						<img width="320" height="412" src="https://s3.amazonaws.com/hakim-static/reveal-js/breakdom.png" alt="BreakDOM game screenshot">
-					</a>
+					<section>
+						<h3>World's largest music company</h3>
+						<img class="fragment shadow" src="img/itunes-logo.jpg" alt="iTunes logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
+
+					<section>
+						<h3>World's fastest growing games company</h3>
+						<img class="fragment shadow" src="img/zynga-logo.jpg" alt="Zynga logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
+
+					<section>
+						<h3>World's largest photography company</h3>
+						<img class="fragment shadow" src="img/flickr-logo.jpg" alt="flickr logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
+
+					<section>
+						<h3>World's fastest growing telecoms company</h3>
+						<img class="fragment" src="img/skype-logo.png" alt="Skype logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
+
+					<section>
+						<h3>World's fastest growing recruitment company</h3>
+						<img class="fragment shadow" src="img/linkedin-logo.png" alt="LinkedIn logo" />
+						<h4 class="fragment">Is a software company</h4>
+					</section>
+
+					<section>
+						<h4>Software is eating the world</h4>
+						<img height="60%" class="shadow" src="img/pacman.jpg" alt="fruit">
+						<h4 class="fragment">These companies dominate by being better at software</h4>
+					</section>
 				</section>
-				
-				<section>
-					<h2>Export to PDF</h2>
-					<p>Presentations can be <a href="https://github.com/hakimel/reveal.js#pdf-export">exported to PDF</a>, below is an example that's been uploaded to SlideShare.</p>
-					<iframe id="slideshare" src="http://www.slideshare.net/slideshow/embed_code/13872948" width="455" height="356" style="margin:0;overflow:hidden;border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe>
-					<script>
-						document.getElementById('slideshare').attributeName = 'allowfullscreen';
-					</script>
+
+				<section> <!-- Software in crisis -->
+					<section>
+						<h3>Software 'crisis'</h3>
+						<p>At a NATO conference in Germany, high ranking government and military officials discuss why:</p>
+						<ul>
+							<li class="fragment">Projects run over-budget</li>
+							<li class="fragment">Projects run over-schedule</li>
+							<li class="fragment">Software is very inefficient</li>
+							<li class="fragment">Software is of low quality</li>
+							<li class="fragment">Software often doesn’t meet requirements</li>
+							<li class="fragment">Code is difficult to maintain</li>
+							<li class="fragment">Software is sometimes never delivered!</li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>When was this?</h3>
+							<ul>
+								<li class="fragment">Yesterday?</li>
+								<li class="fragment">Last week?</li>
+								<li class="fragment">Last year?</li>
+							</ul>
+					</section>
+
+					<section>
+						<img class="shadow" src="img/1968.png" alt="1968 montage"/>
+						<h3 class="fragment">What has changed?</h3>
+					</section>
+
+					<section>
+						<h3>What has changed?</h3>
+						<ul>
+							<li>Most software still of poor quality</li>
+							<li class="fragment">Despite 44 years the technical debt is estimated by <a href="http://www.nist.gov/director/planning/upload/report02-3.pdf">NIST</a> at $60bn/year</li>
+							<li class="fragment">Equal to 2 quarters of negative growth</li>
+							<li class="fragment">Off-shoring is not the panacea that was promised: only <a href="http://esj.com/articles/2007/10/02/the-true-costs-and-potential-risks-of-outsourcing-software-development.aspx">7% differential</a> in true costs</li>
+							<li class="fragment">Hidden/intangible costs more than outweigh this</li>
+						</ul>
+					</section>
 				</section>
-				
+
+				<section> <!-- Case study -->
+					<section>
+						<h2>Case Study</h2>
+						<ul>
+							<li class="fragment">Major online travel player</li>
+							<li class="fragment">Outsourced website to Hungary</li>
+							<li class="fragment">&pound;75m per day turnover</li>
+							<li class="fragment">More than 5 years with same provider</li>
+							<li class="fragment">&gt;120 Java developers</li>
+							<li class="fragment">approx. 500 KLOC</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Issues</h2>
+						<ul>
+							<li class="fragment">Quarterly releases</li>
+							<li class="fragment">3-6 month Time-To-Market</li>
+							<li class="fragment">Unresponsive offshore partner</li>
+							<li class="fragment">&gt;3,500 bugs</li>
+							<li class="fragment">30min+ builds</li>
+							<li class="fragment">almost zero test coverage</li>
+							<li class="fragment">Definitely not cheetah country!</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Solution</h2>
+						<ul>
+							<li class="fragment">Onshore team co-located with business</li>
+							<li class="fragment">Agile transformation using Scrum</li>
+							<li class="fragment">Started with one team of 4 craftsmen</li>
+							<li class="fragment">Grown to 25 organically over 6 months</li>
+							<li class="fragment">Rearchitect into seperately deployable units</li>
+							<li class="fragment">Remediation using XP tech practices:</li>
+							<li class="fragment">TDD, Refactoring, CI, Pair-programming</li>
+						</ul>
+					</section>
+
+					<section>
+						<h2>Positive outcomes</h2>
+						<ul>
+							<li class="fragment">Releases every 2 weeks</li>
+							<li class="fragment">Build time reduced to 5 mins</li>
+							<li class="fragment">&lt;1200 bugs, none severe or critical</li>
+							<li class="fragment">Three independantly deployable modules</li>
+							<li class="fragment">25 onshore outperfoming 120 offshore</li>
+						</ul>
+					</section>
+				</section>
+
+				<section> <!-- COPQ -->
+					<section> 
+						<h2>COPQ</h2>
+						<ul>
+							<li>Cost of poor quality =</li>
+							<li class="fragment">Rework (cost to fix to pass tests)</li>
+							<li class="fragment">+ Tech debt (cost to fix bugs)</li>
+							<li class="fragment">+ lost opportunity cost (schedule slip)</li>
+							<li class="fragment">+ lost revenue (brand equity)</li>
+							<li class="fragment">Example project size: 100KLOC</li>
+							<li class="fragment">Implementation budget: &pound;3m</li>							
+						</ul>
+					</section>
+
+					<section>
+						<h3>Rework costs</h3>
+						<ul>
+							<li class="fragment">Industry av. rework cost &pound;1.75/LOC</li>
+							<li class="fragment">Java is <strong>&pound;3.36/LOC</strong></li>
+							<li class="fragment">100KLOC</li>
+							<li class="fragment">Rework cost is <strong>&pound;340k</strong></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Technical debt cost</h3>
+						<ul>
+							<li class="fragment"><em>Assuming average software quality</em></li>
+							<li class="fragment">Industry average <em>5 bugs/KLOC</em></li>
+							<li class="fragment">Average remediation cost 5 hours/bug</li>
+							<li class="fragment">Loaded cost £60/hour</li>
+							<li class="fragment">Each bug costs £300</li>
+							<li class="fragment">Total cost of remediation <strong>£150k</strong></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Lost opportunity cost</h3>
+						<ul>
+							<li class="fragment">Industry average schedule overrun is 27%</li>
+							<li class="fragment">COCOMO 2,600 LOC/year for 100KLOC</li>
+							<li class="fragment">£30/LOC (loaded cost)</li>
+							<li class="fragment">schedule slippage = <strong>&pound;810k</strong></li>
+						</ul>
+					</section>
+
+					<section>
+						<h3>Total COPQ</h3>
+						<ul>
+							<li><em>(excluding brand equity damage)</em></li>
+							<li class="fragment">Rework &pound;340k</li>
+							<li class="fragment">+ Technical debt &pound;150k</li>
+							<li class="fragment">+ Opportunity cost &pound;810k</li>
+							<li class="fragment">= total cost &pound;1.3m</li>
+							<li class="fragment"><strong>43%</strong> of original project budget</li>
+						</ul>
+					</section>
+				</section>
+
 				<section>
-					<h2>Stellar Links</h2>
+					<h3>Free takeaways</h3>
 					<ul>
-						<li><a href="https://github.com/hakimel/reveal.js">Source code on GitHub</a></li>
-						<li><a href="http://hakim.se/projects/reveal-js">Leave feedback on my site</a></li>
-						<li><a href="http://twitter.com/hakimel">Follow me on Twitter</a></li>
+						<li>Simple budget savers</li>
+						<li class="fragment">Minimum Viable Product (MVP)</li>
+						<li class="fragment">Language choice</li>
+						<li class="fragment">Kanban</li>
 					</ul>
 				</section>
 
 				<section>
-					<h2>It's free</h2>
-					<p>
-						reveal.js and <a href="http://www.rvl.io">rvl.io</a> are entirely free but if you'd like to support the projects you can donate below. 
-						Donations will go towards hosting and domain costs.
-					</p>
-					<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-						<input type="hidden" name="cmd" value="_donations">
-						<input type="hidden" name="business" value="hakim.elhattab@gmail.com">
-						<input type="hidden" name="lc" value="US">
-						<input type="hidden" name="item_name" value="reveal.js / rvl.io">
-						<input type="hidden" name="no_note" value="0">
-						<input type="hidden" name="currency_code" value="USD">
-						<input type="hidden" name="bn" value="PP-DonationsBF:btn_donate_LG.gif:NonHostedGuest">
-						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-					</form>
+					<h3>Minimum Viable Product</h3>
+					<ul>
+						<li>Standish Group's CHAOS report</li>
+						<li class="fragment">45% of software features are never used</li>
+						<li class="fragment">19% of features are rarely used</li>
+						<li class="fragment">So 64% of features are poor value for money</li>
+						<li class="fragment">Do the other 36% first (v1.0)</li>
+						<li class="fragment">Faster TTM, lower cost</li>
+						<li class="fragment">Agile, Kanban and Lean Startup</li>
+					</ul>
 				</section>
-				
+
 				<section>
-					<h1>THE END</h1>
-					<h3>BY Hakim El Hattab / hakim.se</h3>
+					<h3>Language Choice</h3>
+					<ul>
+						<li>CAST Report on App. Software Health</li>
+						<li class="fragment">Average cost to remediate: &pound;1.75/LOC</li>
+						<li class="fragment">Java cost to remediate: &pound;3.36/LOC</li>
+						<li class="fragment">Almost twice as expensive</li>
+						<li class="fragment">JavaEE's complexity encourages alternatives</li>
+						<li class="fragment">Whether Node.js, Scala or Ruby, an alternative can save &pound;160k over a 100KLOC project</li>
+					</ul>
 				</section>
+
+				<section>
+					<section>
+						<h3>Matrix management</h3>
+						<img src="img/cost-calc1.svg" alt="matrix management delivery" />
+					</section>
+
+					<section>
+						<h3>Work In Progress (WIP)</h3>
+						<img src="img/cost-calc2.svg" alt="WIP(1) delivery" />
+					</section>
+
+					<section>
+						<h3>Cost savings</h3>
+						<img src="img/cost-calc3.svg" alt="Cost savings of a Kanban approach" />
+					</section>
+
+					<section>
+						<h3>Total savings using Kanban</h3>
+						<ul>
+							<li class="fragment">Opportunity cost per sprint &pound;10k</li>
+							<li class="fragment">Project C 2 sprints earlier = &pound;20k</li>
+							<li class="fragment">Project B 4 sprints earlier = &pound;40k</li>
+							<li class="fragment">Project A 6 sprints earlier = &pound;60k</li>
+							<li class="fragment">Total cost saving = <strong>&pound;120k</strong></li>
+						</ul>
+					</section>
+				</section>
+
+				<section>
+					<h3>Contracts, radtac-style</h3>
+					<ul>
+						<li class="fragment">Flexible contracts to suit your needs</li>
+						<li class="fragment">Agile contracts: Pay As You Go e.g. break clause per sprint or release</li>
+						<li class="fragment">Risk &amp; Reward, performance-based contracts e.g. 1/3 of contract value is dependent on our successful delivery</li>
+					</ul>
+				</section>
+
+				<section>
+					<h3>Release your cheetah!</h3>
+					<ul>
+						<li>Employ the radtac advantage:</li>
+						<li class="fragment">The most suitable Modern Methods for your project</li>
+						<li class="fragment">Highly experienced, technically excellent Software Craftsmen</li>
+						<li class="fragment">PAYG and Risk &amp; Reward Contracts align us with your business</li>
+					</ul>
+				</section>
+
+ 				<section>
+					<h2>Talk to us</h2>
+					<p><img src="img/all-logos.png" alt="all radtac logos" /></p>
+					<ul>
+						<li>Learn: Peter Measey</li>
+						<li>Change: Darren Wilmshurst</li>
+						<li>Craft: Nigel Runnels-Moss</li>
+						<li class="fragment">People: Jose Casal</li>
+						<li class="fragment">Sales: Richard Lindsay</li>
+						<li class="fragment">Contracts: Michael Short</li>
+					</ul>
+				</section> 
+
 			</div>
+
+
+			<img class="craft-logo" width="150px" src="img/craft-logo.png" />
 
 			<!-- The navigational controls UI -->
 			<aside class="controls">
@@ -335,7 +457,7 @@ function linkify( selector ) {
 				progress: true,
 				history: true,
 				
-				theme: Reveal.getQueryHash().theme || 'default', // available themes are in /css/theme
+				theme: Reveal.getQueryHash().theme || 'sky', // available themes are in /css/theme
 				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/linear(2d)
 
 				// Optional libraries used to extend on reveal.js
