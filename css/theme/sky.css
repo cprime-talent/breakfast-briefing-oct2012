@@ -157,6 +157,11 @@ body {
 
 .reveal p {
 	margin-bottom: 20px;
+	text-align: left;
+}
+
+.reveal p .ref {
+	font-size: 50%;
 }
 
 

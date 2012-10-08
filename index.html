@@ -290,7 +290,7 @@
 					<section>
 						<h3>Rework costs</h3>
 						<ul>
-							<li class="fragment">Industry av. rework cost &pound;1.75/LOC[1]</li>
+							<li class="fragment">Industry av. rework cost &pound;1.75/LOC<a href="#ref">[1]</a></li>
 							<li class="fragment">Java is <strong>&pound;3.36/LOC</strong></li>
 							<li class="fragment">100KLOC</li>
 							<li class="fragment">Rework cost is <strong>&pound;340k</strong></li>
@@ -301,8 +301,8 @@
 						<h3>Technical debt cost</h3>
 						<ul>
 							<li class="fragment"><em>Assuming average software quality</em></li>
-							<li class="fragment">Industry average <em>5 bugs/KLOC[2]</em></li>
-							<li class="fragment">Average remediation cost 5 hours/bug</li>
+							<li class="fragment">Industry average 5 bugs/KLOC<a href="#ref">[2]</a></li>
+							<li class="fragment">Average remediation cost 5 hours/bug<a href="#ref">[2]</a></li>
 							<li class="fragment">Loaded cost £60/hour</li>
 							<li class="fragment">Each bug costs £300</li>
 							<li class="fragment">Total cost of remediation <strong>£150k</strong></li>
@@ -312,8 +312,8 @@
 					<section>
 						<h3>Lost opportunity cost</h3>
 						<ul>
-							<li class="fragment">Industry average schedule overrun is 27%</li>
-							<li class="fragment">COCOMO 2,600 LOC/year for 100KLOC</li>
+							<li class="fragment">Industry average schedule overrun is 27%<a href="#ref">[3]</a></li>
+							<li class="fragment">COCOMO 2,600 LOC/year for 100KLOC<a href="#ref">[4]</a></li>
 							<li class="fragment">£30/LOC (loaded cost)</li>
 							<li class="fragment">schedule slippage = <strong>&pound;810k</strong></li>
 						</ul>
@@ -345,7 +345,7 @@
 				<section>
 					<h3>Minimum Viable Product</h3>
 					<ul>
-						<li>Standish Group's CHAOS report</li>
+						<li>Standish Group's CHAOS report<a href="#ref">[5]</a></li>
 						<li class="fragment">45% of software features are never used</li>
 						<li class="fragment">19% of features are rarely used</li>
 						<li class="fragment">So 64% of features are poor value for money</li>
@@ -358,7 +358,7 @@
 				<section>
 					<h3>Language Choice</h3>
 					<ul>
-						<li>CAST Report on App. Software Health</li>
+						<li>CAST Report on App. Software Health<a href="#ref">[1]</a></li>
 						<li class="fragment">Average cost to remediate: &pound;1.75/LOC</li>
 						<li class="fragment">Java cost to remediate: &pound;3.36/LOC</li>
 						<li class="fragment">Almost twice as expensive</li>
@@ -428,14 +428,12 @@
 				</section> 
 
 				<section>
-					<h2>References</h2>
-					<ul>
-						<li>[1] CAST Report on Application Software Health (<a href="http://blog.castsoftware.com/a-crash-course-on-cast%E2%80%99s-new-crash-report/">link</a>)</li>
-						<li>[2] Jim Johnson at XP2002, author of Standish Group report (<a href="http://martinfowler.com/articles/xp2002.html">link</a>)</li>
-						<li></li>
-						<li></li>
-						<li></li>
-					</ul>
+					<h3>References</h3><a id="ref"></a>
+						<p class="ref">[1] 'Report on Application Software Health', CAST (<a href="http://blog.castsoftware.com/a-crash-course-on-cast%E2%80%99s-new-crash-report/">link</a>)</p>
+						<p class="ref">[2] '3 harmful metrics and 2 helpful metrics', Capers Jones for CERM (<a href="http://insights.cermacademy.com/tag/kloc/">link</a>)</p>
+						<p class="ref">[3] 'Why Your IT Project May Be Riskier Than You Think', Harvard Business Review (<a href="http://hbr.org/2011/09/why-your-it-project-may-be-riskier-than-you-think/">link</a>)</p>
+						<p class="ref">[4] 'Diseconomies of Scale', Jeff Atwood, referencing COCOMO figures (<a href="http://www.codinghorror.com/blog/2006/07/diseconomies-of-scale-and-lines-of-code.html">link</a>)</p>
+						<p class="ref">[5] 'Build only the features you need', Jim Johnson at XP2002, author of the Standish Group report (<a href="http://martinfowler.com/articles/xp2002.html#BuildOnlyTheFeaturesYouNeed">link</a>)</p>
 				</section>
 			</div>
 
