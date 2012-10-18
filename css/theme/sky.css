@@ -47,14 +47,14 @@ body {
 	color: white; 
 }
 
-.craft-logo {
+.reveal .craft-logo {
 	position: absolute; 
 	top: 0; 
 	left: 0; 
 	margin: 12px;
 }
 
-.top-right {
+.reveal .top-right {
 	position: absolute;
 	top: 0;
 	right: 0;
